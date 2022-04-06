@@ -1,0 +1,38 @@
+.nav{
+    position:sticky;
+    z-index: 2;
+    top: 0;
+    min-height: 80px;
+    width: 100%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    background-color: black;
+    justify-content: right;
+    align-items: center;
+}
+
+.logo{
+    text-decoration: none;
+    color: white;
+    padding-left: 40px;
+    justify-content: left;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 18px;
+    padding: 1rem;
+}
+
+.nav ul li p{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
